@@ -7,7 +7,8 @@ phases:
       - java -version
   build:
     commands:
-      - ./mvnw package -Dmaven.test.skip
+      #- ./mvnw package -Dmaven.test.skip
+      - ./mvnw package
 artifacts:
   files:
     - '*.jar'
